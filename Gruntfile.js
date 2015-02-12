@@ -30,14 +30,16 @@ module.exports = function (grunt) {
         files: ['js/*.js', '!js/*min.js'],
         tasks: ['uglify'],
         options: {
-          spawn:false
+          spawn:false,
+          livereload:true
         },
       },
       css: {
         files: ['sass/*.scss'],
         tasks: ['compass'],
         options: {
-          spawn:false
+          spawn:false,
+          livereload:true
         }
       }
     }
