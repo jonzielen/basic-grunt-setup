@@ -1,4 +1,4 @@
 // main.js file
 $(function() {
-    console.log('YO!');
+    console.log('this is fun');
 });
