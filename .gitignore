@@ -1,0 +1,4 @@
+# ignore files other than required grunt files
+config.rb
+node_modules/*
+.sass-cache/*
